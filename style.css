@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://img.freepik.com/free-photo/white-nimbus-clouds_395237-152.jpg?t=st=1716507142~exp=1716510742~hmac=08ea7dcc1f03300b767c929b187c03c2c90458ef03aff0fca324b549584b4e1d&w=1060') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weatherResult {
+    margin-top: 1rem;
+}
+
+#cityName {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#description, #temperature {
+    margin: 0.5rem 0;
+}
